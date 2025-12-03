@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pluto-alien-catalog-service"
+version = "0.1.0"
+description = "Pluto Alien Catalog Service"
+authors = ["Dylan Cicero <dylan.cicero@maxar.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.120.2"}
+pydantic = ">=2.9.2,<2.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
