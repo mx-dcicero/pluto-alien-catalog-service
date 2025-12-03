@@ -22,7 +22,7 @@ To fire up the app locally:
 
 _The following questions are meant to assess general Python knowledge, API design, and problem-solving skills. Have fun with it!_
 
-1. Please boot up the application locally. [Hint: See above for instructions]
+1. Please boot up the application locally.
 2. Test the healthcheck endpoint.
 3. Pretend you are a scientist. POST your new alien discovery to the `/register` endpoint.
 4. Update the alien's entry by POSTing to the `/sight/{name}` endpoint.
