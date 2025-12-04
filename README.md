@@ -25,7 +25,7 @@ _The following questions are meant to assess general Python knowledge, API desig
 
 1. Please boot up the application locally.
 2. Test the healthcheck endpoint.
-3. Pretend you are a scientist. POST your new alien discovery to the `/register` endpoint.
+3. Pretend you are a scientist. POST your new alien discovery to the `/register` endpoint. [You may use an API Testing software like Postman, curl, or the Python requests library]
 4. Update the alien's entry by POSTing to the `/sight/{name}` endpoint.
 5. Users have been complaining that they have no way to get a list of all aliens. Add a new endpoint to support this.
 6. Users have been complaining about the long response times when registering a new alien. Are there any strategies you could think of to improve this?
