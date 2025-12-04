@@ -18,14 +18,3 @@ To fire up the app locally:
 3. Activate virtual environment: source `$(poetry env info --path)/bin/activate`
 4. Run the application with local development server: `fastapi dev main.py`
 5. Navigate to http://127.0.0.1:8000/docs to view the API documentation and test endpoints.
-
-## Assessment
-
-_The following questions are meant to assess general Python knowledge, API design, and problem-solving skills. Have fun with it!_
-
-1. Please boot up the application locally.
-2. Test the healthcheck endpoint.
-3. Pretend you are a scientist. POST your new alien discovery to the `/register` endpoint. [You may use an API Testing software like Postman, curl, or the Python requests library]
-4. Update the alien's entry by POSTing to the `/sight/{name}` endpoint.
-5. Users have been complaining that they have no way to get a list of all aliens. Add a new endpoint to support this.
-6. Users have been complaining about the long response times when registering a new alien. Are there any strategies you could think of to improve this?
